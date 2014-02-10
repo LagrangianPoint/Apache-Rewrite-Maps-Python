@@ -34,6 +34,16 @@ You'll be able to convert underscores to spaces, underscores to hyphens, or spac
 4. Restart Apache.
 
 
+### Notes
+It is very importat to keep in mind that these scripts will be loaded only once by Apache, and it will keep running all the time. 
+So if you plan to modify any of this scripts live , you'll need to restart apache every time.
+For debugging purposes, I strongly recommend you adding the following to your virtual host:
+```
+        RewriteEngine On
+        RewriteLogLevel 9
+        RewriteLog /var/log/apache2/rewrite.log
+```
+
 
 
  
