@@ -3,9 +3,7 @@
 """
 This script replaces spaces with hypens
 
-@author	Alvaro Arteaga
-@email	aarteaga@internebrands.com
-@date	2013-03-21
+Project: https://github.com/LagrangianPoint/Apache-Rewrite-Maps-Python/
 
 http://httpd.apache.org/docs/current/rewrite/rewritemap.html
 http://fragmentsofcode.wordpress.com/2009/02/04/python-script-for-apache-rewritemap/
