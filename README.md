@@ -13,6 +13,7 @@ You'll be able to convert underscores to spaces, underscores to hyphens, or spac
 2. Give execution permissions to these scripts with:
 	```
 	cd /path/to/secure/directory/
+	
 	sudo chmod +x *.py
  	```
 3. Add the following RewriteMap conditions to your Virtual Host file. You can use the following as an example:
