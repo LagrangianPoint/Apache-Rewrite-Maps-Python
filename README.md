@@ -9,7 +9,7 @@ You'll be able to convert underscores to spaces, underscores to hyphens, or spac
 
 # Installation
 
-1. Download under2space.py, under2hyphen.py , and/or space2hyphen.py to a segure directory (one that is only accessible to apache) ,
+1. Download under2space.py, under2hyphen.py , and/or space2hyphen.py to a secure directory (one that is only accessible to apache) ,
 2. Give execution permissions to these scripts with:
 	```
 	cd /path/to/secure/directory/
@@ -35,7 +35,7 @@ You'll be able to convert underscores to spaces, underscores to hyphens, or spac
 
 
 ### Notes
-It is very importat to keep in mind that these scripts will be loaded only once by Apache, and they will keep running all the time. 
+It is very important to keep in mind that these scripts will be loaded only once by Apache, and they will keep running all the time. 
 So if you plan to modify any of this scripts live , you'll need to restart apache every time.
 For debugging purposes, I strongly recommend you adding the following to your virtual host:
 ```
